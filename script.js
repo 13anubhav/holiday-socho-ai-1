@@ -19,7 +19,7 @@ const prompt = `The following is a conversation with a ChatGPT. The bot will res
 
 const response = await openaiInstance.post('/engines/' + modelEngine + '/completions', {
 prompt: prompt,
-max_tokens: 250, // Set max_tokens to 500 for a word limit of 500 words
+max_tokens: 1000, // Set max_tokens to 500 for a word limit of 500 words
 n: 1,
 // stop: '\n',
 });
