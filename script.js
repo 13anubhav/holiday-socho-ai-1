@@ -3,7 +3,7 @@ const chatHistory = document.getElementById('chat-history');
 const userInput = document.getElementById('user-input');
 const form = document.querySelector('form');
 
-const openaiApiKey = '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';
+const openaiApiKey = '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';
 const modelEngine = 'text-davinci-003'; // or other models like curie, babbage, etc.
 
 const openaiInstance = axios.create({
